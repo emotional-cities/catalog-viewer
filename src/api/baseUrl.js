@@ -1,5 +1,5 @@
 
-const baseUrl = "/catalog-viewer"
-//const baseUrl = "/"
+//const baseUrl = "/catalog-viewer"
+const baseUrl = "/"
 
   export default baseUrl

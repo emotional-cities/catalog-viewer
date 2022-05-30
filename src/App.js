@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import PathSwitcher from './api/PathSwitcher';
+import {
+  Link,
+  generatePath,
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App, container">
+      <Link className="btn" to={generatePath("/")} ><h1><i className="bi bi-bookmark-heart" style={{ fontSize: 50 }}></i> Check this OGC API</h1></Link>
+      <br/>
+      <PathSwitcher></PathSwitcher>
     </div>
   );
 }
