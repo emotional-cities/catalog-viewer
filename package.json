@@ -1,5 +1,5 @@
 {
-  "name": "a-gis-full-of-records",
+  "name": "catalog-viewer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
